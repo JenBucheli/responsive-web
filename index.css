@@ -1,8 +1,64 @@
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 300px){
     body {
         background-color: red;
     }
+    .small {
+        font-size: 10px;
+        float: left;
+        width:100%;}
+    .medium{
+        font-size: 10px;
+        float: left;
+        width:100%;}
+    .large{
+        font-size: 10px;
+        float: left;
+        width:100%;}
+    
 }
 
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
 
+    .small {
+        width: 60%;
+        float: left;
+        font-size: ;
+    }
+    .medium{
+        width:40%;
+        float: right;
+    }
+    .large{
+        width: 100%;
+        float:left;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: blue;
+    }
+
+    .small{
+        font-size: 20px;
+        float: left;
+        width: 33.3%;
+        display: inline-block;
+    }
+    .medium{
+        width: 33.3%;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .large{
+        float: right;
+        width: 33.3%;
+        display:inline-block;
+        font-size: 20px;
+    }
+
+}
 
